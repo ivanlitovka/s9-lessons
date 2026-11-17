@@ -37,7 +37,7 @@ def submit(t_code, rlz_file=''):
 
     try:
         r = requests.post(
-            f'http://{TESTS_HOST}:3002',
+            TESTS_HOST,
             json={
                 "code": user_code,
                 "test": t_code,

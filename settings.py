@@ -1,4 +1,4 @@
-TESTS_HOST = '51.250.8.141'
+TESTS_HOST = 'https://s9-test-runner.de.education-services.ru'
 TESTS_HOST_2 = 'https://postgres-check-service.de.education-services.ru'
 
 student = '*',  # ваш_логин
